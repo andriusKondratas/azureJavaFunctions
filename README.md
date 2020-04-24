@@ -1,6 +1,6 @@
 ## Azure Java functions POC
-* 'dumpToBlob' - Accepts HTTP GET request with sample query & executes & dumps contents to blob, responds with blob download URL
-* 'sendMail' - Accepts HTTP GET request with email body & sends email
+* `dumpToBlob` - Accepts HTTP GET request with sample query & executes & dumps contents to blob, responds with blob download URL
+* `sendMail` - Accepts HTTP GET request with email body & sends email
 ### Prerequisites:
 * Maven installed & configured, e.g: `sudo apt install maven`
 * Any Open / Oracle / .. => 1.8 JDK installed, e.g : `sudo apt install default-jdk`
