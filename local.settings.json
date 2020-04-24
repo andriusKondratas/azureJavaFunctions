@@ -1,0 +1,12 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "java",
+    "FUNCTIONS_CORETOOLS_ENVIRONMENT": "1",
+    "SMTP_HOST_NAME": "smtp.test.com",
+    "SMTP_PORT": "25",
+    "AZURE_SQL_CONNECTION_STRING":"",
+    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING":"DefaultEndpointsProtocol=https;AccountName=e564105817e44cecb9c8;AccountKey=NQRiw6AVps5gYyFCU8cihtWegPsbu1pzUTdi7xV/gw++SdR/xycbp3LgKDOXHNRik23XrVXSdJZMN0BCU08y0g=="
+  }
+}
