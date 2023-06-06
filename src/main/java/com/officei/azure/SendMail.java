@@ -85,6 +85,7 @@ public class SendMail {
         msg.setSentDate(new Date());
         msg.setRecipients(Message.RecipientType.TO, InternetAddress.parse(toEmail, false));
         context.getLogger().info("Message is ready");
+        context.getLogger().info("Test");
         Transport.send(msg);
         context.getLogger().info("Email Sent Successfully");
     }
