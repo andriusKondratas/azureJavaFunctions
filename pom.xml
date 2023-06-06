@@ -20,6 +20,8 @@
         <functionAppRegion>northeurope</functionAppRegion>
         <stagingDirectory>${project.build.directory}/azure-functions/${functionAppName}</stagingDirectory>
         <functionResourceGroup>JavaFunctionsPOC</functionResourceGroup>
+        <sonar.organization>andriuskondratas</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
 
     <dependencyManagement>
@@ -42,7 +44,7 @@
             <dependency>
                 <groupId>com.azure</groupId>
                 <artifactId>azure-storage-blob</artifactId>
-                <version>12.0.0</version>
+                <version>12.22.2</version>
             </dependency>
             <dependency>
                 <groupId>com.microsoft.sqlserver</groupId>
@@ -52,7 +54,7 @@
             <dependency>
                 <groupId>com.microsoft.azure</groupId>
                 <artifactId>azure-storage</artifactId>
-                <version>8.6.0</version>
+                <version>8.6.6</version>
             </dependency>
             <dependency>
                 <groupId>javax.mail</groupId>
@@ -80,7 +82,7 @@
         <dependency>
             <groupId>com.azure</groupId>
             <artifactId>azure-storage-blob</artifactId>
-            <version>12.0.0</version>
+            <version>12.22.2</version>
         </dependency>
         <dependency>
             <groupId>com.microsoft.sqlserver</groupId>
